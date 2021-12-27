@@ -44,3 +44,12 @@ Ref:
     └── set_pythonpath.sh   # Shell script to set PYTHONPATH
 ```
 
+## Usage
+
+- Change the PYTHONPATH 
+    - please see the setting at [scripts/set_pythonpath.sh](https://github.com/MIBlue119/test_pythonpath/blob/cd94d192b4f041770071d60c24613a3ed489d19c/scripts/set_pythonpath.sh#L4)
+- Execute the importing scripts
+    ```
+    make activate
+    ```
+
