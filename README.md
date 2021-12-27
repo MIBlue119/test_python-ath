@@ -47,7 +47,7 @@ Ref:
 ## Usage
 
 - Change the PYTHONPATH 
-    - please see the setting at [scripts/set_pythonpath.sh](https://github.com/MIBlue119/test_pythonpath/blob/cd94d192b4f041770071d60c24613a3ed489d19c/scripts/set_pythonpath.sh#L4)
+    - please see the setting at [scripts/set_pythonpath.sh](https://github.com/MIBlue119/test_pythonpath/blob/cabfd8f9642a6e3825b4506228b09bf04d11c4f3/scripts/set_pythonpath.sh#L4)
 - Execute the importing scripts
     ```
     make activate
