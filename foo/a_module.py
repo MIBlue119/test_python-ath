@@ -9,3 +9,6 @@ class Person():
 
     def get_bmi(self):
         return self.weights*self.heights
+
+    def eghhhkijigtjigjitjgijtgitjgigj(self):
+        return "lone too lines"
