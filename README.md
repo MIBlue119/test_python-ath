@@ -53,3 +53,16 @@ Ref:
     make activate
     ```
 
+## Others: another way to append the module search path
+
+-  Use `sys.path.append()` to set the path for interpreter to search the module
+    - We could comment out these two line at `set_pythonpath.sh`
+        ```
+        export PYTHONPATH="$PWD"
+        echo $PYTHONPATH
+        ```
+    - Add these two lines
+        ```
+        import sys 
+        sys.path.append('.')
+        ```
