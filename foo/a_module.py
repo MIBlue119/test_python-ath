@@ -1,3 +1,18 @@
+from functools import wraps
+import time
+
+def timefn(fn):
+    "A function decorator to measure the time consuming."
+    @wraps(fn)
+    def measure_time(*args, **kwargs):
+        t1 = time.time()
+        result = fn(*args,**kwargs)
+        t2 = time.time()
+        print(f"@timefn: {fn.__name__} took {t2- t1} seconds")
+        return result 
+    return measure_time
+
+@timefn
 def func():
     print("This is module a.")
 
